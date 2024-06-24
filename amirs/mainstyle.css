@@ -1,0 +1,240 @@
+@font-face {
+    font-family: iranian;
+    src: url(Iranian\ Sans.ttf);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 100%;
+    height:500px;
+    /* background-image: url(stars1.gif); */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.navbar {
+    width: 100%;
+    /* background-image: url(imgheader.jpg); */
+    height: 90px;
+    border-radius: 0px 0px 35px 35px;
+    background-color: rgba(14, 8, 8, 0.7);
+    backdrop-filter: blur(1px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+}
+#but2{
+    width: 300px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+    gap: 40px;
+}
+#logo{
+    width: 90px;
+    height: 90px;
+}
+#logo:hover{
+    width: 120px;
+    height: 120px;
+    transition: 0.3s ease;
+}
+.logo{
+    width: 50%;
+    height: 9px; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#fontheader {
+    width: 166px;
+    height: 46px;
+    font-size: 220%;
+    position: relative;
+    overflow: hidden; 
+    transition: font-size 0.9s ease, color 0.9s ease;
+}
+#fontheader::before {
+    content: attr(data-text); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+    color: #ff0000;
+    font-size: 250%; 
+    transition: font-size 0.3s ease, color 0.3s ease;
+}
+#fontheader:hover {
+    width: 300%;
+    height: 50px;
+    color: #ff0000;
+}
+#fontheader:hover::before {
+    font-size: 300%; 
+}
+
+.buttons:hover{
+    border-color: #ff0000;
+    
+    box-shadow: 0 0 30px rgba(255, 0, 0, 1);
+    color: rgb(238, 225, 48,1);
+    font-size: 18px;
+}
+/* Start Main */
+#mparent {
+    width: 100%;
+    height: 1000px;
+    background-color: #000;
+}
+main {
+    width: 100%;
+    height: 100%;
+    background-image:url(ps4.jpg);
+    background-size: cover;
+}
+#idk1 {
+    width: 100%;
+    height: 200px;
+}
+#idk2 {
+    width: 100%;
+    font-size: 44px;
+    color: white;
+    line-height: 0.3;
+}
+.title0 {
+    margin-left: 190px;
+}
+.title1 {
+    margin-left: 190px; 
+}
+#idk3 {
+    color: white;
+    font-size: 16px;
+    height: 70px;
+}
+#idk4 {
+    margin-left: 190px;
+}
+#bot1 {
+    width: 130px;
+    padding: 12px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-width: 2px;
+}
+#bot2 {
+    width: 160px;
+    padding: 12px;
+    text-align: center;
+    background-color: #fff;
+    border-color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    border-width: 2px;
+}
+/* start footer */
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(207, 207, 207) ;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    line-height: 10px;
+}
+#holder1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1%;
+    margin-top: 50px;
+}
+#tp1 {
+}
+#tp2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+#tp3 {
+
+}
+#tp4 {
+
+}
+#holder2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#tp5 {
+    font-size: 20px;
+}
+@media only screen and (max-width:325px)  {
+    #mparent {
+        height: 500px;
+    }
+    main {
+        height: 500px;
+    }
+    .title1 {
+        margin-left: 30px;
+        font-size: 28px;
+        margin-top: 0px;
+    }
+    .title0 {
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    footer {
+        height: 260px;
+    }
+    #idk1 {
+        height: 100px;
+    }
+    #idk2 {
+        margin-top: 60px;
+    }
+    #idk4 {
+        margin-left: 60px;
+    }
+    #bot1 {
+        width: 100px;
+        padding:8PX;
+    }
+    #bot2 {
+        width: 100px;
+        padding: 8px;    
+    }
+    #tp1 {
+        font-size: 11px;
+    }
+    #tp2 {
+        font-size: 24px;
+    }
+    #tp5 {
+        font-size: 8px;
+    }
+    #holder2 {
+        line-height: 20px;
+        font-size: 8px;
+    }
+}
+
+
+    
+
+
+
+
